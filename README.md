@@ -14,4 +14,12 @@ Este README e demais estruturas serão atualizados no decorrer do curso.
      - git add README.md (stage README.md)
      - git status (apresenta arquivo a ser commitado)
      - git commit -m "Alteração local do arquivo README.md" (commit contabilizando o arquivo alterado)
-     - git push (mediante autenticação)
+     - git push origin main (mediante autenticação)
+ - Inclusão de diretórios e arquivos com atualização do README
+     - criação de diretórios e arquivos
+     - alterar README
+     - git status (apresenta README alterado e untracked)
+     - git add . (stage tudo)
+     - git status (apresenta todos os arquivos novos e alterados a serem commitados)
+     - git commit -m "Inclusão de estrutura e arquivos com atualização do README"
+     - git push origin main
